@@ -1,0 +1,28 @@
+Markora Privacy Policy
+Effective date: September 22, 2026
+Developer: Hu Dongsheng (胡冬生)
+Contact: hudongsheng356@gmail.com
+
+Local processing
+Markora is a local image annotation app. It reads images, JSON annotations, YOLO text, COCO JSON, Pascal VOC XML, and Core ML models that you choose through the system file picker, and saves files in locations you authorize. Images, annotations, and model inference are processed on your Mac. The app does not upload them to the developer or third-party servers.
+
+Data the app does not collect
+This version requires no account and includes no advertising, analytics SDKs, developer telemetry, or user tracking. It does not send images, annotations, device identifiers, or usage records to the developer. The app has no network access capability.
+
+Local storage
+Edited annotations are saved as JSON beside images. Exports are written to your selected folder. Dataset imports create a new project and a source-file manifest. Batch rename backs up original JSON to .markora-backups in the image folder and records before/after hashes for verification or recovery. These files remain local.
+Detection candidates are cached in .markora-candidates in the image folder, including classes, coordinates, confidence, model name, and SHA-256 image/annotation fingerprints for restoration and change detection.
+Imported models are compiled and copied into Application Support/Markora/Models inside the app container. Model selection and interface language preferences are also stored locally.
+These local files are not sent to the developer. You can manage or delete them in Finder. Removing the app may not delete JSON or caches stored in your image folders.
+
+Support
+If you contact us by email, we receive your email address and the information you choose to send. We use it only to handle your support request and necessary follow-up. You do not need to provide original datasets or sensitive images. You may request deletion of support information through the same email address. Support email is processed by the email service used and is also subject to that service's policies.
+
+System and third-party services
+If you place files in iCloud or another synchronized folder, that service handles synchronization according to its settings; this is not an upload by Markora. Apple handles store purchases, downloads, and system diagnostics according to its policies and your settings. Markora does not independently collect that information.
+
+Permissions
+The app uses the macOS sandbox and user-selected file read/write access. It does not request camera, microphone, location, or contacts access.
+
+Changes and contact
+We will update this policy if future versions change data handling. For privacy questions, contact Hu Dongsheng at hudongsheng356@gmail.com.
