@@ -57,3 +57,20 @@ JSON 无法打开：检查图片尺寸、文件名和 shape_type；不支持的�
 
 ## 界面语言
 点击顶部地球图标，或菜单 Language / 语言，选择 English / 简体中文。无需重启；设置保存在本地。类别名和标注文件不会随语言切换改变。数据集操作或检测进行中请等待完成后切换。
+
+
+## Markora 2：订阅、试用与恢复购买
+
+Markora 2 的完整工作区提供月度和年度自动续订方案，两者包含相同的标注、本地 AI 辅助审核和数据集工具。符合条件的新订阅用户可免费试用一周，资格由 Apple 判断。价格与续订条件以 App Store 购买页面为准。
+
+- 开始使用：打开“订阅与账户”，选择订阅方案，完成 Apple 购买确认后打开图片文件夹。
+- 恢复购买：使用原购买所用的 Apple 账户，点击“恢复购买”。已过期或已退款的订阅不会恢复有效权限。
+- 管理或取消：点击“管理订阅”，或在 App Store 账户设置中操作。取消后可在当前有效订阅期内继续使用；删除 App 不会取消订阅。
+- 商店暂不可用：检查 App Store 登录状态与网络，稍后重试。图片和标注文件仍保留在原位置。请勿删除原始文件来尝试恢复订阅。
+- 本地模型：除兼容的 Core ML 检测器外，Markora 2 也支持兼容的 ONNX 目标检测模型。模型推理在 Mac 本地完成，不支持任意 .pt 文件或应用内训练。
+
+[隐私政策](https://github.com/hudongsheng-debug/Markora-Annotate/blob/main/Privacy%20Policy) · [Apple 标准使用条款](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+
+### Subscription support (English)
+
+Monthly and annual plans include the same full workspace features. Eligible new subscribers receive a one-week free trial. Use Subscription & Account to purchase or restore with the original Apple Account. Expired or refunded subscriptions do not restore active access. Manage or cancel through Apple subscription settings; deleting the app does not cancel a subscription. Images, annotations and model inference remain on your Mac.
